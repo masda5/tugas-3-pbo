@@ -1,0 +1,26 @@
+class Mahasiswa:
+    def __init__(self, nama, nim):
+        self.nama = nama
+        self.nim = nim
+
+    def tampilkan_data(self):
+        print("Nama:", self.nama)
+        print("NIM :", self.nim)
+        print("-" * 20)
+
+# Buat objek dari class Mahasiswa
+mhs1 = Mahasiswa("Andi", "123456")
+mhs2 = Mahasiswa("Budi", "654321")
+
+# Tampilkan data mahasiswa
+mhs1.tampilkan_data()
+mhs2.tampilkan_data()
+
+#ini hasilnya
+
+  Nama: Andi
+NIM : 123456
+--------------------
+Nama: Budi
+NIM : 654321
+--------------------
